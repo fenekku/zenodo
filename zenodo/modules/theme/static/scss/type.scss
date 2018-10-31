@@ -47,3 +47,9 @@ h4, h5 {
 .input-group-btn .btn {
     padding-bottom: 7px;
 }
+
+@-moz-document url-prefix() {
+  .input-group-btn .btn {
+      padding-bottom: 6px;
+  }
+}
